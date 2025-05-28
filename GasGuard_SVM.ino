@@ -28,7 +28,6 @@ const int svmAlertLedPin = 2; // Dedicated LED for SVM "Non-False Alarm"
 const int buzzerPin = 14;
 
 // --- SVM Model Parameters (UPDATE THESE FROM PYTHON SCRIPT OUTPUT) ---
-// These are EXAMPLE values. Replace them with the actual values from your trained model.
 // Number of features used by the SVM model
 const int NUM_SVM_FEATURES = 8;
 
@@ -50,7 +49,7 @@ const float svm_weights[NUM_SVM_FEATURES] = {
 };
 
 // SVM model intercept
-const float svm_intercept = -0.4449249879323717; // EXAMPLE VALUE
+const float svm_intercept = -0.4449249879323717;
 // --- End SVM Model Parameters ---
 
 
@@ -93,13 +92,11 @@ void setup() {
   pinMode(mq2LedPin, OUTPUT);
   pinMode(mq4LedPin, OUTPUT);
   pinMode(mq9LedPin, OUTPUT);
-  pinMode(svmAlertLedPin, OUTPUT); // SVM specific alert LED
   pinMode(buzzerPin, OUTPUT);
 
   digitalWrite(mq2LedPin, LOW);
   digitalWrite(mq4LedPin, LOW);
-  digitalWrite(mq9LedPin, LOW);
-  digitalWrite(svmAlertLedPin, LOW);
+  digitalWrite(mq9LedPin, LOW); 
   digitalWrite(buzzerPin, LOW);
 
   Serial.println("GasGuard with SVM Initialized.");
