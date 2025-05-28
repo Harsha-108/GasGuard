@@ -63,8 +63,8 @@ The project is organized as follows:
 └── feed.json           # A sample JSON file. This could represent:
                         #   - Example training data for the SVM model.
                         #   - Configuration parameters for the system.
-                        #   - Sample sensor readings for testing or demonstration. ```
-
+                        #   - Sample sensor readings for testing or demonstration.
+```
 #   - Example training data for the SVM model.
 #   - Configuration parameters for the system.
 #   - Sample sensor readings for testing or demonstration. 
