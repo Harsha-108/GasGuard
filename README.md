@@ -65,11 +65,6 @@ The project is organized as follows:
                         #   - Configuration parameters for the system.
                         #   - Sample sensor readings for testing or demonstration.
 ```
-#   - Example training data for the SVM model.
-#   - Configuration parameters for the system.
-#   - Sample sensor readings for testing or demonstration. 
-
-
 ---
 
 ## 🛠️ Technology Stack
